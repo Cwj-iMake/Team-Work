@@ -1305,17 +1305,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 692237453}
-        m_TargetAssemblyTypeName: InfoScene, Assembly-CSharp
-        m_MethodName: InfoScene2
-        m_Mode: 1
+        m_TargetAssemblyTypeName: jump, Assembly-CSharp
+        m_MethodName: jump2Scene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: InfoScene2
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &657950007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1399,7 +1399,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 692237451}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fec86f67ea5ec3428b4f2a955df2078, type: 3}
+  m_Script: {fileID: 11500000, guid: f816076583cdb9948a0a68bdf5e5d289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &729776322
@@ -4696,17 +4696,17 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 692237453}
-        m_TargetAssemblyTypeName: InfoScene, Assembly-CSharp
-        m_MethodName: StartScene
-        m_Mode: 1
+        m_TargetAssemblyTypeName: jump, Assembly-CSharp
+        m_MethodName: jump2Scene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: StartScene
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1923078664
 MonoBehaviour:
   m_ObjectHideFlags: 0

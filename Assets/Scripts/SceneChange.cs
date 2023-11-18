@@ -1,16 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+[ExecuteAlways]
 public class jump : MonoBehaviour
 {
-    public void GameScene()
+    public void jump2Scene(string scene)
     {
-        SceneManager.LoadScene("GameScene");
-    }
-    public void InfoScene()
-    {
-        SceneManager.LoadScene("InfoScene");
+        SceneManager.LoadScene(scene);
     }
 }
